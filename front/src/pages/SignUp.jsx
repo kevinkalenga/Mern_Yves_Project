@@ -64,7 +64,7 @@ function SignUp() {
             <div className="flex gap-2 mt-5">
                 <p>Vous avez deja un compte ?</p>
                 <Link to={'/sign-in'}>
-                    <span className="text-blue-700">Inscription</span>
+                    <span className="text-blue-700">Connectez-vous</span>
                 </Link>
             </div>
             {error && <p className="text-red-500">{error}</p>}
